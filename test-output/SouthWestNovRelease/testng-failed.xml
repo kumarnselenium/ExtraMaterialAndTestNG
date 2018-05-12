@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SouthWestNovRelease]">
+  <test name="WebScenarios(failed)" parallel="classes">
+    <classes>
+      <class name="demo.FirstSWDTest">
+        <methods>
+          <include name="example"/>
+        </methods>
+      </class> <!-- demo.FirstSWDTest -->
+    </classes>
+  </test> <!-- WebScenarios(failed) -->
+</suite> <!-- Failed suite [SouthWestNovRelease] -->
