@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-SouthWest" class="navigator-link">
-              <span class="suite-name border-failed">SouthWest</span>
+            <a href="#" panel-name="suite-SouthWestNovRelease" class="navigator-link">
+              <span class="suite-name border-passed">SouthWestNovRelease</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-SouthWest" class="navigator-link ">
-                    <span>testng.xml</span>
+                  <a href="#" panel-name="test-xml-SouthWestNovRelease" class="navigator-link ">
+                    <span>4_testngParallellExecution.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-SouthWest" class="navigator-link ">
+                  <a href="#" panel-name="testlist-SouthWestNovRelease" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-SouthWest" class="navigator-link ">
+                  <a href="#" panel-name="group-SouthWestNovRelease" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-SouthWest" class="navigator-link ">
+                  <a href="#" panel-name="times-SouthWestNovRelease" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-SouthWest" class="navigator-link ">
+                  <a href="#" panel-name="reporter-SouthWestNovRelease" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-SouthWest" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-SouthWestNovRelease" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-SouthWest" class="navigator-link ">
+                  <a href="#" panel-name="chronological-SouthWestNovRelease" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-SouthWest" class="hide-methods failed suite-SouthWest"> (hide)</a> <!-- hide-methods failed suite-SouthWest -->
-                      <a href="#" panel-name="suite-SouthWest" class="show-methods failed suite-SouthWest"> (show)</a> <!-- show-methods failed suite-SouthWest -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SouthWestNovRelease" class="hide-methods passed suite-SouthWestNovRelease"> (hide)</a> <!-- hide-methods passed suite-SouthWestNovRelease -->
+                      <a href="#" panel-name="suite-SouthWestNovRelease" class="show-methods passed suite-SouthWestNovRelease"> (show)</a> <!-- show-methods passed suite-SouthWestNovRelease -->
                     </span>
-                    <div class="method-list-content failed suite-SouthWest">
+                    <div class="method-list-content passed suite-SouthWestNovRelease">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SouthWest" title="demo.Enrollment" class="method navigator-link" hash-for-method="enrollment">enrollment</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouthWestNovRelease" title="demo.EnrollmentWithTestNGParam" class="method navigator-link" hash-for-method="enrollment123(Kumar, H2K)">enrollment123(Kumar, H2K)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-SouthWest -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SouthWestNovRelease" title="demo.FirstSWDTest" class="method navigator-link" hash-for-method="example">example</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SouthWestNovRelease -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,123 +121,150 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-SouthWest" class="panel SouthWest">
-          <div class="suite-SouthWest-class-failed">
+        <div panel-name="suite-SouthWestNovRelease" class="panel SouthWestNovRelease">
+          <div class="suite-SouthWestNovRelease-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">demo.Enrollment</span>
+              <img src="passed.png"/>
+              <span class="class-name">demo.FirstSWDTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="enrollment">
-                  </a> <!-- enrollment -->
-                  <span class="method-name">enrollment</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at demo.Enrollment.enrollment(Enrollment.java:30)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
+                  <a name="example">
+                  </a> <!-- example -->
+                  <span class="method-name">example</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SouthWest-class-failed -->
-        </div> <!-- panel SouthWest -->
-        <div panel-name="test-xml-SouthWest" class="panel">
+          </div> <!-- suite-SouthWestNovRelease-class-passed -->
+          <div class="suite-SouthWestNovRelease-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.EnrollmentWithTestNGParam</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enrollment123(Kumar, H2K)">
+                  </a> <!-- enrollment123(Kumar, H2K) -->
+                  <span class="method-name">enrollment123</span>
+                  <span class="parameters">(Kumar, H2K)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SouthWestNovRelease-class-passed -->
+        </div> <!-- panel SouthWestNovRelease -->
+        <div panel-name="test-xml-SouthWestNovRelease" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/amulyavallamkonda/Downloads/ExtraMaterial-master/testng.xml</span>
+            <span class="header-content">/Users/amulyavallamkonda/Downloads/ExtraMaterial-master/4_testngParallellExecution.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;SouthWest&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;SouthWest&quot;&gt;
+&lt;suite name=&quot;SouthWestNovRelease&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;WebScenarios&quot; verbose=&quot;4&quot;&gt;
+    &lt;parameter name=&quot;FirstName&quot; value=&quot;Kumar&quot;/&gt;
+    &lt;parameter name=&quot;LastName&quot; value=&quot;H2K&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;demo.Enrollment&quot;/&gt;
+      &lt;class name=&quot;demo.EnrollmentWithTestNGParam&quot;/&gt;
+      &lt;class name=&quot;demo.FirstSWDTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SouthWest --&gt;
-&lt;/suite&gt; &lt;!-- SouthWest --&gt;
+  &lt;/test&gt; &lt;!-- WebScenarios --&gt;
+&lt;/suite&gt; &lt;!-- SouthWestNovRelease --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-SouthWest" class="panel">
+        <div panel-name="testlist-SouthWestNovRelease" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for SouthWest</span>
+            <span class="header-content">Tests for SouthWestNovRelease</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SouthWest (1 class)</span>
+                <span class="test-name">WebScenarios (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-SouthWest" class="panel">
+        <div panel-name="group-SouthWestNovRelease" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for SouthWest</span>
+            <span class="header-content">Groups for SouthWestNovRelease</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-SouthWest" class="panel">
+        <div panel-name="times-SouthWestNovRelease" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for SouthWest</span>
+            <span class="header-content">Times for SouthWestNovRelease</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_SouthWest');
-function tableData_SouthWest() {
+suiteTableInitFunctions.push('tableData_SouthWestNovRelease');
+function tableData_SouthWestNovRelease() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'enrollment')
-data.setCell(0, 2, 'demo.Enrollment')
-data.setCell(0, 3, 119);
-window.suiteTableData['SouthWest']= { tableData: data, tableDiv: 'times-div-SouthWest'}
+data.setCell(0, 1, 'example')
+data.setCell(0, 2, 'demo.FirstSWDTest')
+data.setCell(0, 3, 14083);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enrollment123')
+data.setCell(1, 2, 'demo.EnrollmentWithTestNGParam')
+data.setCell(1, 3, 3650);
+window.suiteTableData['SouthWestNovRelease']= { tableData: data, tableDiv: 'times-div-SouthWestNovRelease'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 119 ms</span>
-              <div id="times-div-SouthWest">
-              </div> <!-- times-div-SouthWest -->
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-SouthWestNovRelease">
+              </div> <!-- times-div-SouthWestNovRelease -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-SouthWest" class="panel">
+        <div panel-name="reporter-SouthWestNovRelease" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for SouthWest</span>
+            <span class="header-content">Reporter output for SouthWestNovRelease</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-SouthWest" class="panel">
+        <div panel-name="ignored-methods-SouthWestNovRelease" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-SouthWest" class="panel">
+        <div panel-name="chronological-SouthWestNovRelease" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">demo.Enrollment</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">demo.EnrollmentWithTestNGParam</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launcApp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.FirstSWDTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">enrollment</span>
-                <span class="method-start">5619 ms</span>
+                <span class="method-name">example</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo.EnrollmentWithTestNGParam</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">enrollment123(Kumar, H2K)</span>
+                <span class="method-start">11561 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

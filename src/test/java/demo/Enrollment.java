@@ -33,7 +33,7 @@ public class Enrollment {
 		oBrowser.findElement(By.id("js-customer-first-name")).sendKeys("Kumar");
 		
 		oBrowser.findElement(By.id("js-customer-last-name")).clear();
-		oBrowser.findElement(By.id("js-customer-last-name")).sendKeys("H2K");
+		oBrowser.findElement(By.id("js-customer-last-name")).sendKeys("LastName");
 	}
 	
 	//@AfterMethod

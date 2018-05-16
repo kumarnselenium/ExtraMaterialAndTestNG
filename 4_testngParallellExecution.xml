@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="SouthWestNovRelease">
+
   <test verbose="4" name="WebScenarios"  parallel="classes">
+  
   <parameter name="FirstName" value="Kumar"></parameter>
   <parameter name="LastName" value="H2K"></parameter>
  
     <classes>
       <class name="demo.EnrollmentWithTestNGParam"/>
-      <!-- <class name="demo.FirstSWDTest"/> -->
-      <class name="demo.EnrollmentWithTestNGDataProvider"/>
+      <class name="demo.FirstSWDTest"/>
+      <!-- <class name="demo.EnrollmentWithTestNGDataProvider"/> -->
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Default suite -->

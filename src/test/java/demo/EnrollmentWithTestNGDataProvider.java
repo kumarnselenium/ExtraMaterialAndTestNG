@@ -23,7 +23,7 @@ public class EnrollmentWithTestNGDataProvider {
 	@DataProvider(name="EnrollmentDataTellAbout")
 	public static Object[][] dataForEnrollmentTellAbout()
 	{
-		return new Object[][] {{"Kumar","mname","H2K"}, {"Daneil","mname","H2K"}} ;
+		return new Object[][] {{"Kumar","mname","H2K"}, {"Daneil","mname","H2K"}, {"Mike","Yong","CNN"}} ;
 	}
 	
 	@BeforeMethod
@@ -55,7 +55,7 @@ public class EnrollmentWithTestNGDataProvider {
 	}
 	
 
-	@Test(dataProvider="EnrollmentDataTellAbout")
+	//@Test(dataProvider="EnrollmentDataTellAbout")
 	public void enrollment(String sFName, String sMName, String sLName)
 	{
 		oBrowser.findElement(By.linkText("Enroll")).click();
@@ -68,6 +68,10 @@ public class EnrollmentWithTestNGDataProvider {
 		
 		oBrowser.findElement(By.id("js-customer-last-name")).clear();
 		oBrowser.findElement(By.id("js-customer-last-name")).sendKeys(sLName);
+		
+		String sUserName = "Kumar";
+		oBrowser.findElement(By.xpath("//div[contains(.,'Welcome '" + sUserName + ")]")).isDisplayed();
+		oBrowser.findElements(By.xpath("//div[contains(.,'Welcome '" + sUserName + ")]")).size();
 	}
 	
 	//@AfterMethod

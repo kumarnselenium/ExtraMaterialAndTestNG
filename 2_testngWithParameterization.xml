@@ -2,7 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name = "SouthWest">
-    <!-- <test name = "SouthWest">-->
   	<test name="SouthWest"> 
     <parameter name="FirstName" value="kumar"/>
     <parameter name="LastName" value="LName"/>
